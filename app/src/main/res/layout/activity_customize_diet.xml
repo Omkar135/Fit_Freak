@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Customize_Diet">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Diet"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="35dp"/>
+
+    <LinearLayout
+        android:id="@+id/linlay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--1-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/meal1"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/m1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/cut1"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="150dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:background="#ECEBFF"-->
+<!--                    android:clickable="true"-->
+<!--                    android:src="@drawable/cut"-->
+<!--                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />-->
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/play1"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:background="#ECEBFF"-->
+<!--                    android:clickable="true"-->
+<!--                    android:src="@drawable/play"-->
+<!--                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--2-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/meal2"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/m2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/cut2"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="150dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:background="#ECEBFF"-->
+<!--                    android:clickable="true"-->
+<!--                    android:src="@drawable/cut"-->
+<!--                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />-->
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/play2"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:background="#ECEBFF"-->
+<!--                    android:clickable="true"-->
+<!--                    android:src="@drawable/play"-->
+<!--                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--3-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/meal3"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/m3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/cut3"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="150dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:background="#ECEBFF"-->
+<!--                    android:clickable="true"-->
+<!--                    android:src="@drawable/cut"-->
+<!--                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />-->
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/play3"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:background="#ECEBFF"-->
+<!--                    android:clickable="true"-->
+<!--                    android:src="@drawable/play"-->
+<!--                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--4-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/meal4"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/m4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/cut4"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="150dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:background="#ECEBFF"-->
+<!--                    android:clickable="true"-->
+<!--                    android:src="@drawable/cut"-->
+<!--                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />-->
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/play4"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="10dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:background="#ECEBFF"-->
+<!--                    android:clickable="true"-->
+<!--                    android:src="@drawable/play"-->
+<!--                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--5-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/meal5"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/m5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/cut5"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="150dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:background="#ECEBFF"-->
+<!--                    android:clickable="true"-->
+<!--                    android:src="@drawable/cut"-->
+<!--                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />-->
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/play5"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:background="#ECEBFF"-->
+<!--                    android:clickable="true"-->
+<!--                    android:src="@drawable/play"-->
+<!--                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/recipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linlay1"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="15dp"
+        android:text="New Recipes !"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/horizlinlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/recipes">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rec1"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="150dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="30dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/dish1"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="-15dp"
+                android:src="@drawable/recipe1" />
+
+            <ImageView
+                android:id="@+id/vidplay1"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:layout_marginStart="-17dp"
+                android:src="@drawable/youtube" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/tx1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Try this recipe"-->
+<!--                android:textSize="19sp"-->
+<!--                android:textColor="#757575"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_marginTop="130dp"-->
+<!--                android:layout_marginStart="17dp"/>-->
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rec2"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="150dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            android:clickable="true"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/dish2"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="-15dp"
+                android:src="@drawable/recipe2" />
+
+            <ImageView
+                android:id="@+id/vidplay2"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:layout_marginStart="-17dp"
+                android:src="@drawable/youtube" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/tx2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Try this recipe"-->
+<!--                android:textSize="19sp"-->
+<!--                android:textColor="#757575"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_marginTop="130dp"-->
+<!--                android:layout_marginStart="17dp"/>-->
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="310dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/horizlinlay"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/login_sub_bt"
+        android:text="Save"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+</RelativeLayout>

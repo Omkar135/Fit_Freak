@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Work2">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Workout Routine"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Routine"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="379dp"
+        android:layout_height="615dp"
+        android:orientation="vertical">
+
+        <!--1-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exercise1"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/exec1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Exercise 1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!--<ImageButton
+                    android:id="@+id/cut1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/cut"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/play1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/play"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--2-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exercise2"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/exec2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Exercise 2"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!--<ImageButton
+                    android:id="@+id/cut2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/cut"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/play2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/play"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--3-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exercise3"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/exec3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Exercise 3"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!--<ImageButton
+                    android:id="@+id/cut3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/cut"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/play3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/play"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--4-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exercise4"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/exec4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Exercise 4"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!--<ImageButton
+                    android:id="@+id/cut4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/cut"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/play4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/play"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--5-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exercise5"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/exec5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Exercise 5"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!--<ImageButton
+                    android:id="@+id/cut5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/cut"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/play5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/play"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--6-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exercise6"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/exec6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Exercise 6"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!--<ImageButton
+                    android:id="@+id/cut6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/cut"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/play6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/play"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--7-->
+        <!--<androidx.cardview.widget.CardView
+            android:id="@+id/exercise7"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/exe7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Exercise 7"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/cut7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/cut"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/play7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/play"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>-->
+
+        <!--8-->
+        <!--<androidx.cardview.widget.CardView
+            android:id="@+id/exercise8"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ECEBFF"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/exe8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Exercise 8"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/cut8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/cut"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/play8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECEBFF"
+                    android:clickable="true"
+                    android:src="@drawable/play"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>-->
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/wr3"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/ll1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/save_bt"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+
+
+</RelativeLayout>
